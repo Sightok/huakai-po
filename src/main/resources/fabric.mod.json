@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "huakai-po",
+	"id": "huakaipo",
 	"version": "${version}",
 	"name": "Huaka'i Po",
 	"description": "Mod based around the 'Huaka'i Po' game world",
@@ -12,14 +12,14 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/huakai-po/icon.png",
+	"icon": "assets/huakaipo/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"name.modid.HuakaiPo"
+			"name.huakaipo.HuakaiPo"
 		],
 		"client": [
-			"name.modid.HuakaiPoClient"
+			"name.huakaipo.HuakaiPoClient"
 		]
 	},
 	"mixins": [
