@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "huakai-po",
+	"version": "${version}",
+	"name": "Huaka'i Po",
+	"description": "Mod based around the 'Huaka'i Po' game world",
+	"authors": [
+		"Saitok"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/huakai-po/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"name.modid.HuakaiPo"
+		],
+		"client": [
+			"name.modid.HuakaiPoClient"
+		]
+	},
+	"mixins": [
+		"huakai-po.mixins.json",
+		{
+			"config": "huakai-po.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
