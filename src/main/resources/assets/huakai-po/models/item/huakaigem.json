@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "huakai-po:item/huakai-gem"
+    "layer0": "huakai-po:item/huakaigem"
   }
 }

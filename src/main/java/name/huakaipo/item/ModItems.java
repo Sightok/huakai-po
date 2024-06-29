@@ -11,7 +11,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item HUAKAI_GEM = registerItem("huakai-gem", new Item(new Item.Settings()));
+    public static final Item HUAKAI_GEM = registerItem("huakaigem", new Item(new Item.Settings()));
 
     private static void addItemstoItemGroup(FabricItemGroupEntries entries)
     {
