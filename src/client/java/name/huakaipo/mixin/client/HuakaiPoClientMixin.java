@@ -1,4 +1,4 @@
-package name.modid.mixin.client;
+package name.huakaipo.mixin.client;
 
 import net.minecraft.client.MinecraftClient;
 import org.spongepowered.asm.mixin.Mixin;

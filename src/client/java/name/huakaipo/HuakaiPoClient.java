@@ -1,4 +1,4 @@
-package name.modid;
+package name.huakaipo;
 
 import net.fabricmc.api.ClientModInitializer;
 
