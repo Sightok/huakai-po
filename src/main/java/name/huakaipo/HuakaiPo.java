@@ -1,5 +1,6 @@
 package name.huakaipo;
 
+import name.huakaipo.block.ModBlocks;
 import name.huakaipo.item.ModItemGroups;
 import name.huakaipo.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -17,6 +18,8 @@ public class HuakaiPo implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.RegisterModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

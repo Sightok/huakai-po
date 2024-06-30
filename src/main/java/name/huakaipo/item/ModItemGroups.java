@@ -1,6 +1,7 @@
 package name.huakaipo.item;
 
 import name.huakaipo.HuakaiPo;
+import name.huakaipo.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -17,9 +18,9 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.huakaipo"))
                     .icon(() -> new ItemStack(ModItems.HUAKAI_GEM)).entries((displayContext, entries) -> {
                         entries.add(ModItems.HUAKAI_GEM);
+                        entries.add(ModBlocks.HUAKAI_GEM_BLOCK);
                         entries.add(ModItems.GODSLAYER_GUN);
 
-                        entries.add(Items.ANGLER_POTTERY_SHERD);
 
 
                     }).build());
