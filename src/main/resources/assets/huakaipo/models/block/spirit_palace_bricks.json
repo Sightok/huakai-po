@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "huakaipo:block/huakaigem_block"
+    "all": "huakaipo:block/spirit_palace_bricks"
   }
 }

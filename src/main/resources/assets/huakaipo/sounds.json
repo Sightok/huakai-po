@@ -1,8 +1,23 @@
 {
-  "bing": {
-    "subtitle": "subtitles.huakaipo.bingnote",
+  "music_disc.huakaimenu_disc": {
     "sounds": [
-      "huakaipo:bing"
+      {
+        "name": "records/huakaimenu_disc"
+      }
+    ]
+  },
+  "music_disc.blast_disc": {
+    "sounds": [
+      {
+        "name": "records/blast_disc"
+      }
+    ]
+  },
+  "music_disc.technoroom_disc": {
+    "sounds": [
+      {
+        "name": "records/technoroom_disc"
+      }
     ]
   }
 }

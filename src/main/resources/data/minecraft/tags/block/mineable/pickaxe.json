@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "huakaipo:gem_block",
+    "huakaipo:palace_bricks",
+    "huakaipo:red_palace_bricks",
+    "huakaipo:spirit_palace_bricks"
+  ]
+}
