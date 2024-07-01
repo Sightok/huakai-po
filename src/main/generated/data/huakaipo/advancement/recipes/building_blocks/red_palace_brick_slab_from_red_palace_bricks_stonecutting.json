@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_red_palace_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "huakaipo:red_palace_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:red_palace_brick_slab_from_red_palace_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_red_palace_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:red_palace_brick_slab_from_red_palace_bricks_stonecutting"
+    ]
+  }
+}

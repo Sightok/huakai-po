@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "huakaipo:block/palace_brick_pillar"
+  }
+}

@@ -20,6 +20,9 @@
 		],
 		"client": [
 			"name.huakaipo.HuakaiPoClient"
+		],
+		"fabric-datagen": [
+			"name.huakaipo.HuakaiPoDataGenerator"
 		]
 	},
 	"mixins": [

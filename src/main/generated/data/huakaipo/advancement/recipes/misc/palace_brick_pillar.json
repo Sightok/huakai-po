@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_palace_brick_pillar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "huakaipo:palace_brick_pillar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_polished_diorite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_diorite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:palace_brick_pillar"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_polished_diorite",
+      "has_palace_brick_pillar"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:palace_brick_pillar"
+    ]
+  }
+}

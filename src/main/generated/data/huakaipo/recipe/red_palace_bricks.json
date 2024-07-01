@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:polished_diorite"
+    },
+    "R": {
+      "item": "huakaipo:gem"
+    }
+  },
+  "pattern": [
+    "#R",
+    "R#"
+  ],
+  "result": {
+    "count": 4,
+    "id": "huakaipo:red_palace_bricks"
+  }
+}

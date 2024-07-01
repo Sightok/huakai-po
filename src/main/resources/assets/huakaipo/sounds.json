@@ -1,22 +1,25 @@
 {
-  "music_disc.huakaimenu_disc": {
+  "huakaimenu_disc": {
+    "category": "record",
     "sounds": [
       {
-        "name": "records/huakaimenu_disc"
+        "name": "huakaipo:records/huakaimenu_disc"
       }
     ]
   },
-  "music_disc.blast_disc": {
+  "blast_disc": {
+    "category": "record",
     "sounds": [
       {
-        "name": "records/blast_disc"
+        "name": "huakaipo:records/blast_disc"
       }
     ]
   },
-  "music_disc.technoroom_disc": {
+  "technoroom_disc": {
+    "category": "record",
     "sounds": [
       {
-        "name": "records/technoroom_disc"
+        "name": "huakaipo:records/technoroom_disc"
       }
     ]
   }

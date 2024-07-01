@@ -3,15 +3,21 @@
   "item.huakaipo.godslayergun": "Godslayer's Gun",
 
   "item.huakaipo.huakaimenu_disc": "Music Disc",
-  "item.huakaipo.huakaimenu_disc.desc": "Huaka'i Menu - guhlactic",
+  "item.huakaipo.huakaimenu_disc.desc": "guhlactic - Huaka'i Menu",
   "item.huakaipo.technoroom_disc": "Music Disc",
-  "item.huakaipo.technoroom_disc.desc": "Secret Room - guhlactic",
+  "item.huakaipo.technoroom_disc.desc": "guhlactic - Secret Room",
   "item.huakaipo.blast_disc": "Music Disc",
-  "item.huakaipo.blast_disc.desc": "Start Blasting - guhlactic",
+  "item.huakaipo.blast_disc.desc": "guhlactic - Start Blasting",
 
   "block.huakaipo.gem_block": "Block of Huaka'i Gem",
   "block.huakaipo.palace_bricks": "Palace Bricks",
+  "block.huakaipo.palace_brick_stairs": "Palace Brick Stairs",
+  "block.huakaipo.palace_brick_wall": "Palace Brick Wall",
+  "block.huakaipo.palace_brick_slab": "Palace Brick Slab",
   "block.huakaipo.red_palace_bricks": "Red Palace Bricks",
+  "block.huakaipo.red_palace_brick_stairs": "Red Palace Brick Stairs",
+  "block.huakaipo.red_palace_brick_wall": "Red Palace Brick Wall",
+  "block.huakaipo.red_palace_brick_slab": "Red Palace Brick Slab",
   "block.huakaipo.spirit_palace_bricks": "Spirit Palace Bricks",
 
   "itemgroup.huakaipo": "Huaka'i Po"

@@ -19,13 +19,22 @@ public class ModItemGroups {
                         entries.add(ModItems.GEM);
                         entries.add(ModItems.GODSLAYER_GUN);
 
+                        entries.add(ModItems.TIKI_MASK);
+
                         entries.add(ModItems.HUAKAIMENU_DISC);
                         entries.add(ModItems.TECHNOROOM_DISC);
                         entries.add(ModItems.BLAST_DISC);
 
                         entries.add(ModBlocks.GEM_BLOCK);
                         entries.add(ModBlocks.PALACE_BRICKS);
+                        entries.add(ModBlocks.PALACE_BRICK_STAIRS);
+                        entries.add(ModBlocks.PALACE_BRICK_SLAB);
+                        entries.add(ModBlocks.PALACE_BRICK_WALL);
+                        entries.add(ModBlocks.PALACE_BRICK_PILLAR);
                         entries.add(ModBlocks.RED_PALACE_BRICKS);
+                        entries.add(ModBlocks.RED_PALACE_BRICK_STAIRS);
+                        entries.add(ModBlocks.RED_PALACE_BRICK_SLAB);
+                        entries.add(ModBlocks.RED_PALACE_BRICK_WALL);
                         entries.add(ModBlocks.SPIRIT_BRICKS);
 
 

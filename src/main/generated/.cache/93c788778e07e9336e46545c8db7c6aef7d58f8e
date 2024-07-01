@@ -1,0 +1,5 @@
+// 1.21	2024-07-01T15:12:19.0077884	Huaka'i Po/Tags for minecraft:block
+c60fcee213c2fe154ac25fcc8297c2adc4ff0a05 data\minecraft\tags\block\walls.json
+1488bec1a39799cfe4e90994b319636d602f8f17 data\minecraft\tags\block\mineable\pickaxe.json
+1488bec1a39799cfe4e90994b319636d602f8f17 data\minecraft\tags\block\needs_stone_tool.json
+1e1d1ef8b616e802a9c7c86958ab010fcfc7a525 data\minecraft\tags\block\soul_speed_blocks.json

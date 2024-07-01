@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "huakaipo:block/red_palace_brick_slab"
+    },
+    "type=double": {
+      "model": "huakaipo:block/red_palace_bricks"
+    },
+    "type=top": {
+      "model": "huakaipo:block/red_palace_brick_slab_top"
+    }
+  }
+}

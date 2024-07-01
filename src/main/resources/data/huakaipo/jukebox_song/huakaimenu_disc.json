@@ -1,8 +1,10 @@
 {
   "comparator_output": 1,
-  "description": " - huakaimenu_disc",
-  "length_in_seconds": 36.591338,
+  "description": {
+    "translate" : "item.huakaipo.huakaimenu_disc.desc"
+  },
+  "length_in_seconds": 36.591,
   "sound_event": {
-    "sound_id": "huakaipo:music_disc.huakaimenu_disc"
+    "sound_id": "huakaipo:huakaimenu_disc"
   }
 }

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "huakaipo:block/red_palace_bricks",
+    "side": "huakaipo:block/red_palace_bricks",
+    "top": "huakaipo:block/red_palace_bricks"
+  }
+}

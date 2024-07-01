@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "huakaipo:block/red_palace_bricks"
+  }
+}

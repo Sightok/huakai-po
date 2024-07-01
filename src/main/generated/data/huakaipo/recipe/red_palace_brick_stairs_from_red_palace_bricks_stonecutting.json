@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "huakaipo:red_palace_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "huakaipo:red_palace_brick_stairs"
+  }
+}
