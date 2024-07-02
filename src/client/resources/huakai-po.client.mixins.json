@@ -1,11 +1,14 @@
 {
-	"required": true,
-	"package": "name.huakaipo.mixin.client",
-	"compatibilityLevel": "JAVA_21",
-	"client": [
-      "HuakaiPoClientMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
+  "required": true,
+  "package": "name.huakaipo.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "HuakaiPoClientMixin",
+    "ItemRendererAccessor",
+    "ItemRendererMixin",
+    "ModelLoaderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
 	}
 }

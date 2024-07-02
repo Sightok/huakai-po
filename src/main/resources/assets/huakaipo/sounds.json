@@ -22,5 +22,21 @@
         "name": "huakaipo:records/technoroom_disc"
       }
     ]
+  },
+  "tiki_man_death_sfx": {
+    "subtitle": "sounds.huakaipo.tiki_man_dies",
+    "sounds": [
+      {
+        "name": "huakaipo:entity/tiki_man_death_sfx"
+      }
+    ]
+  },
+  "tiki_man_ambient_sfx": {
+    "subtitle": "sounds.huakaipo.tiki_man_noises",
+    "sounds": [
+      {
+        "name": "huakaipo:entity/tiki_man_death_sfx"
+      }
+    ]
   }
 }

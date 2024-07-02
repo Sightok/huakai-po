@@ -37,7 +37,7 @@ public class ModBlocks {
     public static final Block SPIRIT_BRICKS = registerBlock("spirit_palace_bricks",
             new Block(AbstractBlock.Settings.copy(Blocks.BRICKS).mapColor(MapColor.LIGHT_BLUE).breakInstantly()));
     public static final Block PALACE_BRICK_PILLAR = registerBlock("palace_brick_pillar",
-            new Block(AbstractBlock.Settings.copy(Blocks.BRICKS).mapColor(MapColor.WHITE).breakInstantly()));
+            new Block(AbstractBlock.Settings.copy(Blocks.BRICKS).mapColor(MapColor.WHITE)));
 
     private static Block registerBlock(String name, Block block)
     {

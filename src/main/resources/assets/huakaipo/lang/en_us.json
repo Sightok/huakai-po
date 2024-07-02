@@ -9,8 +9,17 @@
   "item.huakaipo.blast_disc": "Music Disc",
   "item.huakaipo.blast_disc.desc": "guhlactic - Start Blasting",
 
+  "item.huakaipo.tiki_man_spawn_egg": "Tiki Man Spawn Egg",
+  "item.huakaipo.godslayer_spawn_egg": "Godslayer Spawn Egg",
+
+  "entity.huakaipo.tiki_man": "Tiki Man",
+  "entity.huakaipo.godslayer": "Godslayer",
+
+  "item.huakaipo.tiki_mask": "Tiki Mask",
+
   "block.huakaipo.gem_block": "Block of Huaka'i Gem",
   "block.huakaipo.palace_bricks": "Palace Bricks",
+  "block.huakaipo.palace_brick_pillar": "Palace Brick Pillar",
   "block.huakaipo.palace_brick_stairs": "Palace Brick Stairs",
   "block.huakaipo.palace_brick_wall": "Palace Brick Wall",
   "block.huakaipo.palace_brick_slab": "Palace Brick Slab",
@@ -19,6 +28,9 @@
   "block.huakaipo.red_palace_brick_wall": "Red Palace Brick Wall",
   "block.huakaipo.red_palace_brick_slab": "Red Palace Brick Slab",
   "block.huakaipo.spirit_palace_bricks": "Spirit Palace Bricks",
+
+  "sounds.huakaipo.tiki_man_noises": "Tiki Man makes a noise",
+  "sounds.huakaipo.tiki_man_dies": "Tiki Man dies",
 
   "itemgroup.huakaipo": "Huaka'i Po"
 }

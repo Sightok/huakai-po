@@ -25,6 +25,9 @@ public class ModItemGroups {
                         entries.add(ModItems.TECHNOROOM_DISC);
                         entries.add(ModItems.BLAST_DISC);
 
+                        entries.add(ModItems.TIKI_MAN_SPAWN_EGG);
+                        entries.add(ModItems.GODSLAYER_SPAWN_EGG);
+
                         entries.add(ModBlocks.GEM_BLOCK);
                         entries.add(ModBlocks.PALACE_BRICKS);
                         entries.add(ModBlocks.PALACE_BRICK_STAIRS);

@@ -3,8 +3,15 @@ package name.huakaipo.datagen;
 import name.huakaipo.block.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
+import net.minecraft.data.DataOutput;
+import net.minecraft.data.server.loottable.LootTableGenerator;
+import net.minecraft.data.server.loottable.LootTableProvider;
+import net.minecraft.loot.LootTable;
+import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryWrapper;
 
+import java.util.List;
+import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 
 public class ModLootTableProvider extends FabricBlockLootTableProvider {
@@ -25,5 +32,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RED_PALACE_BRICK_SLAB, slabDrops(ModBlocks.RED_PALACE_BRICK_SLAB));
         addDrop(ModBlocks.SPIRIT_BRICKS);
         addDrop(ModBlocks.PALACE_BRICK_PILLAR);
+
+
     }
 }
