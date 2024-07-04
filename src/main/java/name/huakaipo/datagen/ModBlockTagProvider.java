@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
-import net.minecraft.sound.SoundEvent;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -32,6 +31,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PALACE_BRICK_WALL)
                 .add(ModBlocks.RED_PALACE_BRICK_WALL);
         getOrCreateTagBuilder(BlockTags.SOUL_SPEED_BLOCKS)
+                .add(ModBlocks.SPIRIT_BRICKS);
+        getOrCreateTagBuilder(BlockTags.BEACON_BASE_BLOCKS)
+                .add(ModBlocks.GEM_BLOCK);
+        getOrCreateTagBuilder(BlockTags.SOUL_FIRE_BASE_BLOCKS)
                 .add(ModBlocks.SPIRIT_BRICKS);
     }
 }
