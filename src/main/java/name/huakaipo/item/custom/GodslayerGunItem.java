@@ -59,7 +59,9 @@ public class GodslayerGunItem extends Item {
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity playerEntity, Hand hand) {
-        FireParticles(world, playerEntity);
+        if (!world.isClient) {
+            FireParticles(world, playerEntity);
+        }
         return super.use(world, playerEntity, hand);
     }
 
@@ -96,33 +98,20 @@ public class GodslayerGunItem extends Item {
 
     private void FireParticles(World world, LivingEntity entity) {
         Vec3d vec3d = entity.getRotationVec(0).normalize();
-        if (entity.getServer() != null) {
-            ServerWorld serverWorld = (ServerWorld) world;
-            serverWorld
-                    .spawnParticles(
-                            ParticleTypes.FLAME,
-                            entity.getX() + vec3d.x * 1,
-                            entity.getBodyY(.6) + vec3d.y,
-                            entity.getZ() + vec3d.z * 1,
-                            5,
-                            0.0,
-                            0.0,
-                            0.0,
-                    .3
-                    );
-        }
-        else {
-            world
-                    .addParticle(
-                            ParticleTypes.FLAME,
-                            entity.getX() + vec3d.x * 0.5,
-                            entity.getBodyY(.6) + vec3d.y,
-                            entity.getZ() + vec3d.z * 0.5,
-                            vec3d.x * 0.3,
-                            vec3d.y * 0.3,
-                            vec3d.z * 0.3
-                    );
-        }
-        entity.playSound(SoundEvents.BLOCK_FIRE_AMBIENT);
+
+        ServerWorld serverWorld = (ServerWorld) world;
+        serverWorld
+                .spawnParticles(
+                        ParticleTypes.FLAME,
+                        entity.getX() + vec3d.x * 1,
+                        entity.getBodyY(.6) + vec3d.y,
+                        entity.getZ() + vec3d.z * 1,
+                        5,
+                        0.0,
+                        0.0,
+                        0.0,
+                .3
+                );
+        world.playSound(null, entity.getBlockPos(),SoundEvents.BLOCK_FIRE_AMBIENT, SoundCategory.PLAYERS);
     }
 }

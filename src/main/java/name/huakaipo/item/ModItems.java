@@ -31,6 +31,12 @@ public class ModItems {
             new SpawnEggItem(ModEntities.TIKI_MAN, 0xE68D41, 0x843346, new Item.Settings()));
     public static final Item GODSLAYER_SPAWN_EGG = registerItem("godslayer_spawn_egg",
             new SpawnEggItem(ModEntities.GODSLAYER, 0x6F2C0E, 0x3E3B51, new Item.Settings()));
+    public static final Item HUGHIE_SPAWN_EGG = registerItem("hughie_spawn_egg",
+            new SpawnEggItem(ModEntities.MASTER_HUGHIE, 0x0000, 0xFFB700, new Item.Settings()));
+    public static final Item BALTHAZAR_SPAWN_EGG = registerItem("balthazar_spawn_egg",
+            new SpawnEggItem(ModEntities.BALTHAZAR_ENTITY, 0x8F8F8F, 0xFFFFFF, new Item.Settings()));
+    public static final Item LATVIAN_SPAWN_EGG = registerItem("latvian_spawn_egg",
+            new SpawnEggItem(ModEntities.BALTHAZAR_ENTITY, 0x000000, 0xFFFFFF, new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(HuakaiPo.MOD_ID, name), item);

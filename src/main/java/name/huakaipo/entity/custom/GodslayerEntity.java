@@ -12,6 +12,7 @@ import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.mob.CreeperEntity;
 import net.minecraft.entity.mob.HostileEntity;
 import net.minecraft.entity.mob.MobEntity;
+import net.minecraft.entity.passive.WolfEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.projectile.PersistentProjectileEntity;
 import net.minecraft.entity.projectile.ProjectileUtil;
@@ -79,6 +80,7 @@ public class GodslayerEntity extends HostileEntity implements RangedAttackMob {
         this.targetSelector.add(1, new ActiveTargetGoal<>(this, PlayerEntity.class, true));
         this.targetSelector.add(0, new ActiveTargetGoal<>(this, TikiManEntity.class, true));
         this.goalSelector.add(2, new ProjectileAttackGoal(this, 1, 1, MAX_SHOOT_RANGE));
+        this.goalSelector.add(3, new FleeEntityGoal<>(this, BalthazarEntity.class, 6.0F, 1.0, 1.2));
         this.goalSelector.add(2, new WanderAroundFarGoal(this, 0.4));
         this.goalSelector.add(3, new LookAtEntityGoal(this, PlayerEntity.class, 8.0F));
         this.goalSelector.add(3, new LookAroundGoal(this));
